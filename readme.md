@@ -121,7 +121,7 @@
 #### Sign-up(Returns token )
 
 ```http
-  POST http://localhost:3000/api/sign-up
+  POST https://qas3k5.deta.dev/api/sign-up
 ```
 
 | Parameter | Type     | Description                |
@@ -133,7 +133,7 @@
 #### Log In(Returns token)
 
 ```http
-  GET http://localhost:3000/api/sign-in
+  GET https://qas3k5.deta.dev/api/sign-in
 ```
 
 | Parameter | Type     | Description                |
@@ -144,7 +144,7 @@
 #### Restricted route
 
 ```http
-  GET http://localhost:3000/api/all-users
+  GET https://qas3k5.deta.dev/api/all-users
 ```
 
 | Parameter | Type     | Description                |
