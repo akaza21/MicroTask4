@@ -141,6 +141,16 @@
 | `body` | `email` | **Required**|
 | `body` | `password` | **Required**|
 
+#### Restricted route
+
+```http
+  GET http://localhost:3000/api/all-users
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `header` | `token` | **Required**|
+
 
 ### Visitor counter
 
